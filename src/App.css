@@ -55,22 +55,104 @@ div.intro{
   padding: 20px;
   text-align: center;
 }
-button {
-  border: none;
-  background: green;
-  padding: 0.3em 1.5em; /* Reduced padding */
-  border-radius: 1px; /* Smaller border radius */
-  color: white;
-  font-family: Poppins;
-  font-size: 0.8rem; /* Reduced font size */
-  font-weight: 1;
-  cursor: pointer;
-  transition: 150ms ease;
-  display: inline-block; /* Ensures proper centering when used */
-  text-align: center; /* Center-aligns text inside the button */
+
+
+.mb-4 {
+  margin-bottom: 1rem;
+  position: relative;
 }
 
-button:hover{
-  background: peru;
-  scale: 1.0;
+.form1{
+  position: center;
+  border: 3px solid #f1f1f1;
+  padding: 16px;
+  background-color: white;
+  margin: auto;
+  width: 30%;
+  position: relative;
+  right: 0;
+
+}
+.inform11{
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: relative;
+  left: 2%;
+}
+.form2{
+  position: center;
+  border: 3px solid #f1f1f1;
+  padding: 16px;
+  background-color: white;
+  margin: auto;
+  width: 30%;
+  position: relative;
+  left: 0;
+}
+
+.inform22{
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: relative;
+  left: 2%;
+}
+
+.buttonx1{
+  background-color: #04AA6D;
+  color: white;
+  padding: 2px 1px; /* Reduce the vertical padding */
+  margin: 30px 0; /* Add vertical space instead of using top */
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  position: relative;
+  top: 0; /* Reset top to 0 */
+  height: 40%; /* Optionally set a fixed height */
+}
+
+.search-box {
+  display: flex;
+  gap: 1.0rem;
+  border: 2px solid #ccc;
+  padding: 2rem 1.5rem; /* Increased vertical padding for more height */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #f9fafb;
+  width: 60%;           /* Lowered width */
+  min-height: 120px;    /* Slightly increased minimum height */
+  margin: auto;         /* Center the box horizontally */
+  position: relative;
+  top: 50px;            /* Adjusted top position */
+}
+
+.fl{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  position: relative;
+  top: -40px;
+  right: 30px;
+}
+
+.ft{
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  position: relative;
+  top: -100px;
+  left: 120px;
+
+}
+
+.block{
+  margin-bottom: 1rem;
+  text-align: center;
+  position: relative;
+  top: -100px;
+  left: 130px;
 }
